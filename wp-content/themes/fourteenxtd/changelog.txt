@@ -1,0 +1,16 @@
+Theme Name:   FourteenXtd
+File Name:    Changelog
+Tested up to: 3.9-alpha
+Stable tag:	  1.0.2
+
+== Changelog ==
+
+= 1.0.2 =
+* NEW: Added option to add an image logo in place of the site title.
+* Added some security check on data input.
+
+= 1.0.1 =
+* Added @media CSS from parent theme to combat some issues that were reported for mobile devices.
+
+= 1.0.0 =
+Initial Release 

@@ -1,0 +1,146 @@
+/*
+Theme Name:     Twenty fourteen Child
+Theme URI:      
+Description:    Thème enfant pour le thème Twenty Fourteen
+Author:         
+Author URI:     
+Template:       twentyfourteen                             
+Version:        0.1.0
+*/
+@import url("../twentyfourteen/style.css");
+
+html
+{
+	width: 100% !important;
+}
+
+#below-menu
+{
+	width: 100%;
+	background-color: #303030;
+	height:120px;
+}
+body
+{
+	background-color: red !important;
+	background-image: none !important;
+	width: 100% !important;
+	overflow-x: hidden;
+}
+
+#masthead
+{
+	max-width: 100% !important;
+}
+
+#page.hfeed.site
+{
+	max-width: 100% !important;
+	
+	margin: 0px !important;
+}
+/*
+#slider-container
+{
+	width: 100%;
+	background-color: #303030;
+}
+
+.eps-slider
+{
+	max-width: 100% !important;
+}
+
+.da-slide
+{
+	width: 100%;
+}
+
+.da-img
+{
+	width: 100% !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	z-index: 100;
+}
+
+
+.da-slide-heading-content h2
+{
+	position: relative !important;
+}
+
+.da-slide-heading-content .da-slide-content
+{
+	position: relative !important;
+}
+*/
+footer
+{
+	margin-bottom: -30px;
+	
+}
+
+	.header-main
+	{
+		width: 975px !important;
+		margin: auto !important;
+	}
+
+	#primary.content-area{
+		width: 975px;
+		background-color: white;
+		margin: auto;
+		float: none;
+	}
+
+	.da-slide-heading-content
+	{
+		width: 975px !important;
+		height: 200px;
+		margin: auto;
+		position: absolute;
+		left: 50%;
+		margin-left: -487px;
+		z-index: 101;
+	}
+
+	#footer-sidebar
+	{
+		width: 975px;
+		margin: auto;
+	}
+	
+	#content
+	{
+		width: 650px;
+		float: left;
+	}
+
+	#content-sidebar
+	{
+		width: 325px !important;
+		float: left !important;
+	}
+
+@media screen and (max-width: 975px)
+{
+	.header-main
+	{
+		width: 100% !important;
+	}
+
+	#primary.content-area{
+		width: 100%;
+	}
+
+	.da-slide-heading-content
+	{
+		width: 100% !important;
+	}
+
+	#footer-sidebar
+	{
+		width: 100%;
+	}
+}
